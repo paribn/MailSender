@@ -1,0 +1,7 @@
+﻿@model EmailEntity
+<div class="newsletter-form mb-100">
+    <form asp-action="SendEmail" method="post">
+        <input asp-for="ToEmail" placeholder="Your E-mail">
+        <button type="submit" value="Subscribe" style="width:20px;height:10px" </button>
+    </form>
+</div>
